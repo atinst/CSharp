@@ -1,0 +1,13 @@
+F:\Git\CSharp\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe.config
+F:\Git\CSharp\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe
+F:\Git\CSharp\WebBrowser\WebBrowser\bin\Debug\WebBrowser.pdb
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\MainWindow.baml
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\MainWindow.g.cs
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\App.g.cs
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser_MarkupCompile.cache
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.g.resources
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.Properties.Resources.resources
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource.Cache
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.exe
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.pdb
