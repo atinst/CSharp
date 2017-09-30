@@ -1,0 +1,36 @@
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\bin\Debug\MojiWeather.exe.config
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\bin\Debug\MojiWeather.exe
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\bin\Debug\MojiWeather.pdb
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MainWindow.g.cs
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\App.g.cs
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather_MarkupCompile.cache
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather_MarkupCompile.lref
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MainWindow.baml
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.g.resources
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.Properties.Resources.resources
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csproj.GenerateResource.Cache
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csproj.CoreCompileInputs.cache
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.exe
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.pdb
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\bin\Debug\Newtonsoft.Json.dll
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\bin\Debug\restsharp.dll
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\Style.baml
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\App.baml
+F:\Visual Studio\Projects\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csprojResolveAssemblyReference.cache
+F:\Git\CSharp\MojiWeather\MojiWeather\bin\Debug\MojiWeather.exe.config
+F:\Git\CSharp\MojiWeather\MojiWeather\bin\Debug\MojiWeather.exe
+F:\Git\CSharp\MojiWeather\MojiWeather\bin\Debug\MojiWeather.pdb
+F:\Git\CSharp\MojiWeather\MojiWeather\bin\Debug\Newtonsoft.Json.dll
+F:\Git\CSharp\MojiWeather\MojiWeather\bin\Debug\restsharp.dll
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MainWindow.baml
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\Style.baml
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\App.baml
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MainWindow.g.cs
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\App.g.cs
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather_MarkupCompile.cache
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.g.resources
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.Properties.Resources.resources
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csproj.GenerateResource.Cache
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csproj.CoreCompileInputs.cache
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.exe
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.pdb

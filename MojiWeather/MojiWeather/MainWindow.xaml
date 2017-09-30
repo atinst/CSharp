@@ -1,0 +1,31 @@
+﻿<Window x:Class="MojiWeather.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Image/sea.jpg" Stretch="UniformToFill"></ImageBrush>
+
+        </Grid.Background>
+        <Label Margin="10,340,10,10" Background="Black" Opacity="0.5"></Label>
+        <GridSplitter Width="2"  Height="80" Margin="0,340,535,10" Opacity="0.3"/>
+        <GridSplitter Width="2"  Height="80" Margin="0,340,265,10" Opacity="0.3"/>
+        <Label Name="Wendu" Width="230" Height="150" Foreground="White" FontSize="130" Margin="11,140,559,160" FontFamily="Microsoft YaHei UI Light"></Label>
+        <Label Content="今天" Height="30" Width="50" Foreground="White" FontSize="18" Margin="31,347,719,73"></Label>
+        <Label Content="明天" Height="30" Width="50" Foreground="White" FontSize="18" Margin="286,347,464,73"></Label>
+        <Label Content="后天" Height="30" Width="50" Foreground="White" FontSize="18" Margin="555,347,195,73"></Label>
+        <Label Name="Diqu" Foreground="White" FontSize="20" Margin="15,40,645,345"></Label>
+        <Label Name="Tianqi" Foreground="White" FontSize="20" Margin="241,229,499,171"></Label>
+
+        <Label  Height="35" Content="墨迹天气Copy" MouseDown="Move_OnMouseDown" Foreground="White" FontSize="18" Background="Black" Opacity="0.5" Margin="0,0,0,415"></Label>
+        <Button Name="CloseButton" Click="CloseButton_OnClick"  Style="{StaticResource CloseBtnStyle}" Width="30" Height="30" Margin="767,3,3,417" ></Button>
+        <Button Name="MiniButton" Click="MiniButton_OnClick" Style="{StaticResource MimiBtnStyle}" Width="28" Height="30" Margin="724,3,48,417"></Button>
+
+
+
+    </Grid>
+</Window>
