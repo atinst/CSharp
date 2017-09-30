@@ -1,0 +1,81 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="在线客服客户端" Height="580" Width="300"
+        WindowStyle="None" Topmost="True" WindowStartupLocation="CenterScreen" ShowInTaskbar="False"
+        ResizeMode="NoResize" BorderThickness="1" BorderBrush="#69CFEA" 
+        MouseMove="Window_MouseMove" MouseLeave="Window_MouseLeave">
+    <Window.Resources>
+        <ControlTemplate TargetType="Button" x:Key="CloseBtnTemplate">
+            <!--控件模板-->
+            <Image x:Name="buttonImg" Source="/Image/CloseBtn.png"/>
+            <ControlTemplate.Triggers>
+                <Trigger Property="Button.IsMouseOver" Value="true">
+                    <!--鼠标悬浮变色(更换图片)  触发器-->
+                    <Setter TargetName="buttonImg" Property="Source" Value="/Image/CloseBtnMouseOn.png"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="MinBtnTemplate">
+            <Image x:Name="buttonImg" Source="/Image/MinBtn.png"/>
+            <ControlTemplate.Triggers>
+                <Trigger Property="Button.IsMouseOver" Value="true">
+                    <Setter TargetName="buttonImg" Property="Source" Value="/Image/MinBtnMouseOn.png"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <!--主界面-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Background="#69CFEA">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="在线客服" Grid.Column="0" FontSize="14" Height="20" FontWeight="Bold" Margin="5,0,0,0"/>
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <Button Width="20" Height="20" Template="{StaticResource MinBtnTemplate}" Click="MinBtn_Click"/>
+                    <Button Width="20" Height="20" Template="{DynamicResource CloseBtnTemplate}" Click="CloseBtn_Click"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1" Background="#69CFEA">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Image/Head.png" Width="48" Height="48" VerticalAlignment="Top"/>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="4"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="4"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Horizontal">
+                        <Image Width="16" Height="16" Source="/Image/Online.png" Margin="0,0,5,0"/>
+                        <TextBlock Text="客服" FontWeight="Bold" FontSize="14" Height="20"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <ListBox Name="CustomList" BorderThickness="0" ItemsSource="{Binding}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="5,5,0,5">
+                                <Image Name="UseImg" Width="38" Height="38" Source="{Binding Path=ImgPath}"/>
+                                <TextBlock Text="{Binding Path=UserName}" FontSize="15" Margin="10,10,0,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
