@@ -6,7 +6,7 @@
         mc:Ignorable="d"
         Title="WebBrowser" Height="1000" Width="1000">
     <Grid Background="Black">
-        <TextBox  Name="UrlIn" Text="俄译汉" Height="40"  FontSize="20" Margin="10,20,10,909" GotFocus="UrlIn_GotFocus" KeyDown="UrlIn_KeyDown"  />
+        <TextBox  Name="UrlIn" Text="俄译汉" Height="40"  FontSize="20" Margin="10,20,10,0" GotFocus="UrlIn_GotFocus" KeyDown="UrlIn_KeyDown" VerticalAlignment="Top"  />
         <WebBrowser Name="CamWeb" Margin="10,70,10,10"  />
     </Grid>
 </Window>
