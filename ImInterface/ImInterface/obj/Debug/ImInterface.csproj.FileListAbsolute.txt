@@ -25,3 +25,17 @@ H:\新建文件夹\ImInterface\obj\Debug\ImInterface.csproj.GenerateResource.Cac
 H:\新建文件夹\ImInterface\obj\Debug\ImInterface.csproj.CoreCompileInputs.cache
 H:\新建文件夹\ImInterface\obj\Debug\ImInterface.exe
 H:\新建文件夹\ImInterface\obj\Debug\ImInterface.pdb
+F:\Git\CSharp\ImInterface\ImInterface\bin\Debug\ImInterface.exe.config
+F:\Git\CSharp\ImInterface\ImInterface\bin\Debug\ImInterface.exe
+F:\Git\CSharp\ImInterface\ImInterface\bin\Debug\ImInterface.pdb
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.csprojResolveAssemblyReference.cache
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\MainWindow.baml
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\MainWindow.g.cs
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\App.g.cs
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface_MarkupCompile.cache
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.g.resources
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.Properties.Resources.resources
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.csproj.GenerateResource.Cache
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.csproj.CoreCompileInputs.cache
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.exe
+F:\Git\CSharp\ImInterface\ImInterface\obj\Debug\ImInterface.pdb
