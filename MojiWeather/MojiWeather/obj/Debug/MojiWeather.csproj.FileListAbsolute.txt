@@ -34,3 +34,4 @@ F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csproj.GenerateResou
 F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csproj.CoreCompileInputs.cache
 F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.exe
 F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.pdb
+F:\Git\CSharp\MojiWeather\MojiWeather\obj\Debug\MojiWeather.csprojResolveAssemblyReference.cache

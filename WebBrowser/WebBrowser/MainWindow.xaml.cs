@@ -12,6 +12,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            CamWeb.Navigate("https://baidu.com");
         }
 
         private void UrlIn_KeyDown(object sender, KeyEventArgs e)

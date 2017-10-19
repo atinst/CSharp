@@ -47,7 +47,7 @@ namespace MojiWeather
 
         private void MiniButton_OnClick(object sender, RoutedEventArgs e)
         {
-            WindowState = WindowState.Minimized;
+            WindowState = WindowState.Maximized;
         }
     }
 }

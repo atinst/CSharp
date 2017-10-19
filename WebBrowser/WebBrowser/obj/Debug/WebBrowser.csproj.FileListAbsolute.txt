@@ -11,3 +11,4 @@ F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource
 F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
 F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.exe
 F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.pdb
+F:\Git\CSharp\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csprojResolveAssemblyReference.cache

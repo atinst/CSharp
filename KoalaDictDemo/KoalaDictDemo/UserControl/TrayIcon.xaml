@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="KoalaDictDemo.TrayIcon"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KoalaDictDemo"
+             mc:Ignorable="d" 
+             d:DesignHeight="225" d:DesignWidth="155" BorderThickness="5">
+    <UserControl.Effect>
+        <DropShadowEffect BlurRadius="8" Color="Black" ShadowDepth="0"/>
+    </UserControl.Effect>
+    <Grid>
+        <Label Background="White"/>
+        <Button Margin="0,3,0,179" Content="   屏幕取词" HorizontalContentAlignment="Left" Style="{DynamicResource TrayBtnStyle}"/>
+        <Button Margin="0,37,0,145" Content="   划词翻译" HorizontalContentAlignment="Left" Style="{DynamicResource TrayBtnStyle}"/>
+        <GridSplitter Width="145" Height="1.5" Background="#DCDCDC" Margin="0,142,0,71"   />
+        <Button Margin="0,74,0,108" Content="   显示主窗口" HorizontalContentAlignment="Left" Style="{DynamicResource TrayBtnStyle}"/>
+        <Button Margin="0,108,0,74" Content="   意见反馈" HorizontalContentAlignment="Left" Style="{DynamicResource TrayBtnStyle}"/>
+        <GridSplitter Width="145" Height="1.5" Background="#DCDCDC" Margin="0,71,0,142"  />
+        <Button Margin="0,145,0,37" Content="   设置" HorizontalContentAlignment="Left" Style="{DynamicResource TrayBtnStyle}" />
+        <Button Margin="0,179,0,3" Content="   退出" HorizontalContentAlignment="Left" Style="{DynamicResource TrayBtnStyle}" />
+        
+
+
+    </Grid>
+</UserControl>
