@@ -19,7 +19,7 @@ namespace WpfApp1
         {
             if (e.Key != Key.Enter) return;
             var word = UrlIn.Text;
-            var url = $"http://www.igimu.com/words/index.php?q={word}";
+            var url = $"F:\\Untitled.html";
             CamWeb.Navigate(url);
         }
 
